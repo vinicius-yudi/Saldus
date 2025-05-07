@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Expense } from '../types';
 import { useApp } from '../context/AppContext';
-import { parseNaturalLanguageExpense, formatCurrency } from '../utils/helpers';
+import { parseNaturalLanguageExpense,} from '../utils/helpers';
 
 export const ExpenseForm: React.FC = () => {
   const { addExpense, categories } = useApp();
